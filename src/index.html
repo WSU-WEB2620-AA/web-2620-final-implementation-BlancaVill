@@ -1,16 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title>Project Starter</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./stylesheets/main.scss">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>The Vinyl Vault | Final Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./stylesheets/main.scss">
+  </head>
 
-<body>
-  <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
-<script type="module" src="./javascripts/main.js"></script>
-</body>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-lightGray">
+      <div class="container-fluid">
+
+        <!-- Logo -->
+        <div class="navbar-brand">
+          <img src="./images/logo.png" alt="Vinyl Vault logo" style="height: 40px;">
+        </div>
+
+        <!-- Hamburger Menu (smaller screens) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center justify-content-lg-end">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="collections.html">Collections</a></li>
+            <li class="nav-item"><a class="nav-link" href="new_releases.html">New Releases</a></li>
+            <li class="nav-item"><a class="nav-link" href="preorders.html">Pre-orders</a></li>
+            <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <section id="jumbotron" class="text-center py-5 px-3 px-lg-0">
+      <div class="container">
+
+        <h1 class="display-4 fw-bold text-secondaryPurple">
+          Welcome to The Vinyl Vault
+        </h1>
+
+        <p class="lead fw-bold mt-3">
+          You’ve come to the right place to explore music from old classics to the newest albums.
+          Start by browsing our recent collections!
+        </p>
+
+        <a href="collections.html" class="btn btn-gray">
+          Browse Collections
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Two Cards Sections -->
+    <section class="bg-backgroundWhite pb-5">
+      <div class="container">
+        <div class="row g-4">
+
+          <!-- Card 1 -->
+          <div class="col-12 col-md-6">
+            <div class="card bg-lightGray h-100">
+
+              <div class="card-header bg-lightGray border-0">
+                <h2 class="text-secondaryPurple mb-0 text-center">
+                  Top 5 Albums
+                </h2>
+              </div>
+
+              <div class="card-body bg-backgroundWhite m-3 rounded text-center">
+
+                <ol class="mb-0 ps-3 list-group list-group-numbered">
+                  <li class="border-bottom border-top py-2 list-group-item list-group-item-secondary py-lg-3">Un Verano Sin Ti – Bad Bunny (2022)</li>
+                  <li class="border-bottom py-2 list-group-item list-group-item-primary py-lg-3">Starboy – The Weeknd (2016)</li>
+                  <li class="border-bottom py-2 list-group-item list-group-item-secondary py-lg-3">÷ (Divide) – Ed Sheeran (2017)</li>
+                  <li class="border-bottom py-2 list-group-item list-group-item-primary py-lg-3">SOUR – Olivia Rodrigo (2021)</li>
+                  <li class="border-bottom py-2 list-group-item list-group-item-secondary py-lg-3">After Hours – The Weeknd (2020)</li>
+                </ol>
+
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-12 col-md-6">
+            <div class="card bg-lightGray h-100">
+
+              <div class="card-header bg-lightGray border-0">
+                <h2 class="text-secondaryPurple mb-0 text-center">
+                  Must-Listen Top Songs
+                </h2>
+              </div>
+
+              <div class="card-body bg-backgroundWhite m-3 rounded text-center">
+
+                <ol class="mb-0 ps-3 list-group">
+                  <li class="border-bottom border-top py-2 list-group-item list-group-item-secondary py-md-2 py-lg-1">Heaven Knows I’m Miserable Now – The Smiths</li>
+                  <li class="border-bottom py-2 list-group-item list-group-item-primary py-md-3 py-lg-3">Bohemian Rhapsody – Queen</li>
+                  <li class="border-bottom py-2 list-group-item list-group-item-secondary py-md-3 py-lg-3">Purple Rain – Prince</li>
+                  <li class="border-bottom py-2 list-group-item list-group-item-primary py-md-3 py-lg-3">Like a Rolling Stone – Bob Dylan</li>
+                  <li class="border-bottom py-2 list-group-item list-group-item-secondary py-md-2 py-lg-3">Smells Like Teen Spirit – Nirvana</li>
+                </ol>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-lightGray py-3">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+
+        <!-- Left Logo -->
+        <div class="navbar-brand">
+          <img src="./images/logo.png" alt="Vinyl Vault logo" style="height: 40px;">
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav flex-column flex-md-row">
+          <li class="nav-item"><a class="nav-link text-secondaryPurple" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-secondaryPurple" href="#">Albums</a></li>
+          <li class="nav-item"><a class="nav-link text-secondaryPurple" href="#">Songs</a></li>
+          <li class="nav-item"><a class="nav-link text-secondaryPurple" href="#">Contact</a></li>
+        </ul>
+
+      </div>
+
+      <div class="container mt-2">
+        <small>© 2026 Blanca Villegas.All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script type="module" src="./javascripts/main.js"></script>
+        
+  </body>
 </html>

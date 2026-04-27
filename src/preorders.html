@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>The Vinyl Vault | Final Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./stylesheets/main.scss">
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg bg-lightGray">
+            <div class="container-fluid">
+
+                <!-- Logo -->
+                <div class="navbar-brand">
+                    <a href="index.html"><img src="./images/logo.png" alt="Vinyl Vault logo" style="height: 40px;"></a>
+                </div>
+
+                <!-- Hamburger Menu (smaller screens) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center justify-content-lg-end">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="collections.html">Collections</a></li>
+                        <li class="nav-item"><a class="nav-link" href="new_releases.html">New Releases</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Pre-orders</a></li>
+                        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>      
+        
+        <!-- Search Bar -->
+        <form class="py-4" role="search">
+            <div class="d-flex justify-content-center align-items-center gap-2">
+
+                <input class="form-control px-3" style="width: 75%; max-width: 400px; min-height: 38px;" type="search" placeholder="Search albums or artists..." aria-label="Search">
+                <!--Search Btn-->
+                <button class="btn btn-gray" type="submit">
+                    Search
+                </button>
+
+            </div>
+        </form>
+
+    <section class="text-center py-4">
+            <div class="container">
+                <h1 class="text-secondaryPurple fw-bold">
+                Pre-order today before they sell out!
+                </h1>
+
+                <!-- Contact Btn -->
+                <a href="contact.html" class="btn btn-purple pt-2">
+                Contact Us Now
+                </a>
+            </div>
+        </section>
+
+        <!-- New Releases Section -->
+        <section class="pt-4 pb-5">
+            <div class="container d-flex justify-content-center">
+
+                <!-- Outer Box -->
+                <div class="card bg-lightGray p-3" style="max-width: 1000px; width: 100%;">
+
+                    <!-- Title -->
+                    <h2 class="text-secondaryPurple mb-3 text-center">
+                        Upcoming Releases
+                    </h2>
+
+                    <!-- Inner Box -->
+                    <div class="bg-backgroundWhite p-3 rounded mx-auto" style="max-width: 800px; width: 75%;">            
+                        <div style="max-height: 500px; overflow-y: auto;">
+
+                            <!-- Album cards -->
+                            <div class="card mb-3">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-3 text-center">
+                                        <img src="./images/record_cover.jpg" class="img-fluid p-2" alt="album cover">
+                                    </div>
+                                    <div class="col-md-9 text-center text-md-start">
+                                        <div class="card-body">
+                                            <h3 class="mb-1">LP4</h3>
+                                            <p class="mb-1 small">American Football</p>
+                                            <p class="mb-1 small">Release: May 1, 2026</p>
+                                            <p class="mb-0 small">Genre: Emo / Alternative Rock</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-3 text-center">
+                                        <img src="./images/record_cover.jpg" class="img-fluid p-2" alt="album cover">
+                                    </div>
+                                    <div class="col-md-9 text-center text-md-start">
+                                        <div class="card-body">
+                                            <h3 class="mb-1">Train on the Island</h3>
+                                            <p class="mb-1 small">Aldous Harding</p>
+                                            <p class="mb-1 small">Release: May 8, 2026</p>
+                                            <p class="mb-0 small">Genre: Indie / Folk</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-3 text-center">
+                                        <img src="./images/record_cover.jpg" class="img-fluid p-2" alt="album cover">
+                                    </div>
+                                    <div class="col-md-9 text-center text-md-start">
+                                        <div class="card-body">
+                                            <h3 class="mb-1">An Eraser and a Maze</h3>
+                                            <p class="mb-1 small">Modest Mouse</p>
+                                            <p class="mb-1 small">Release: June 5, 2026</p>
+                                            <p class="mb-0 small">Genre: Indie Rock / Alternative</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card mb-3">
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-3 text-center">
+                                        <img src="./images/record_cover.jpg" class="img-fluid p-2" alt="album cover">
+                                    </div>
+                                    <div class="col-md-9 text-center text-md-start">
+                                        <div class="card-body">
+                                            <h3 class="mb-1">A*Pop</h3>
+                                            <p class="mb-1 small">Tyla</p>
+                                            <p class="mb-1 small">Release: July 2026</p>
+                                            <p class="mb-0 small">Genre: Pop / Amapiano</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-3 text-center">
+                                    <img src="./images/record_cover.jpg" class="img-fluid p-2" alt="album cover">
+                                </div>
+                                <div class="col-md-9 text-center text-md-start">
+                                    <div class="card-body">
+                                        <h3 class="mb-1">Frisson Noir</h3>
+                                        <p class="mb-1 small">Tarja</p>
+                                        <p class="mb-1 small">Release: June 12, 2026</p>
+                                        <p class="mb-0 small">Genre: Symphonic Metal / Rock</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-3 text-center">
+                                    <img src="./images/record_cover.jpg" class="img-fluid p-2" alt="album cover">
+                                </div>
+                                <div class="col-md-9 text-center text-md-start">
+                                    <div class="card-body">
+                                    <h3 class="mb-1">Breach</h3>
+                                        <p class="mb-1 small">Twenty One Pilots</p>
+                                        <p class="mb-1 small">Release: September 12, 2025</p>
+                                        <p class="mb-0 small">Genre: Alternative Rock / Pop Rock</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+
+        <!-- Footer -->
+        <footer class="bg-lightGray py-3">
+            <div class="container d-flex justify-content-between align-items-center">
+
+                <!-- Left Logo -->
+                <div class="navbar-brand">
+                <img src="./images/logo.png" alt="Vinyl Vault logo" style="height: 40px;">
+                </div>
+
+                <!-- Navigation Links -->
+                <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-secondaryPurple" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-secondaryPurple" href="albums.html">Albums</a></li>
+                <li class="nav-item"><a class="nav-link text-secondaryPurple" href="songs.html">Songs</a></li>
+                <li class="nav-item"><a class="nav-link text-secondaryPurple" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="container text-left mt-2">
+                <small class="mb-0">© 2026 Blanca Villegas.All rights reserved.</small>
+            </div>
+        </footer>
+
+        <script type="module" src="./javascripts/main.js"></script>
+    </body>
+</html>

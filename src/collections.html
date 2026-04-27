@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>The Vinyl Vault | Final Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./stylesheets/main.scss">
+    </head>
+
+    <body class="bg-backgroundWhite">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg bg-lightGray">
+            <div class="container-fluid">
+
+                <!-- Logo -->
+                <div class="navbar-brand">
+                    <a href="index.html"><img src="./images/logo.png" alt="Vinyl Vault logo" style="height: 40px;"></a>
+                </div>
+
+                <!-- Hamburger Menu (smaller screens) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center justify-content-lg-end">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Collections</a></li>
+                        <li class="nav-item"><a class="nav-link" href="new_releases.html">New Releases</a></li>
+                        <li class="nav-item"><a class="nav-link" href="preorders.html">Pre-orders</a></li>
+                        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>      
+        
+        <!-- Search Bar -->
+        <form class="py-4" role="search">
+            <div class="d-flex justify-content-center align-items-center gap-2">
+
+                <input class="form-control px-3" style="width: 75%; max-width: 400px; min-height: 38px;" type="search" placeholder="Search albums or artists..." aria-label="Search">
+                <!--Search Btn-->
+                <button class="btn btn-gray" type="submit">
+                    Search
+                </button>
+
+            </div>
+        </form>
+
+        <section class="text-center py-4">
+            <div class="container">
+                <h1 class="text-secondaryPurple fw-bold">
+                    The right place to find music that speaks to your heart
+                </h1>
+            </div>
+        </section>
+
+        <!-- Collections (Grid) -->
+        <section class="py-2 pb-5">
+            <div class="container">
+                <div class="d-grid gap-4 justify-content-center">
+
+                    <!-- 1st Category -->
+                    <div class="container-fluid d-flex flex-column flex-md-row align-items-center p-3 bg-primaryPurple rounded mx-auto text-center" style="min-width: 400px; max-width: 1100px;">
+                        <!-- Category Title --> 
+                        <div class="me-md-4 mb-3 mb-md-0" style="width: 120px; flex-shrink:0;">
+                            <h2 class="text-secondaryPurple m-md-4 fw-bold">Hip Hop / Rap</h2>
+                        </div>
+                        
+                        <!-- Album Cards -->
+                        <div class="d-flex flex-nowrap overflow-auto w-100">
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Damn</p>
+                                    <p class="small">Kendrick Lamar</p>
+                                </div>
+                            </div> 
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Illmatic</p>
+                                    <p class="small mb-0">Nas</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Astroworld</p>
+                                    <p class="small mb-0">Travis Scott</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Take Care</p>
+                                    <p class="small mb-0">Drake</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">KOD</p>
+                                    <p class="small mb-0">J. Cole</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Graduation</p>
+                                    <p class="small mb-0">Kanye West</p>
+                                </div>
+                            </div>
+
+                        <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">KOD</p>
+                                    <p class="small mb-0">J. Cole</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Graduation</p>
+                                    <p class="small mb-0">Kanye West</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2nd Category -->
+                    <div class="container-fluid d-flex flex-column flex-md-row align-items-center p-3 bg-primaryPurple rounded mx-auto text-center" style="min-width: 400px; max-width: 1100px;">
+                        <!-- Category Title -->
+                        <div class="me-md-4 mb-3 mb-md-0" style="width: 120px; flex-shrink:0;">
+                            <h2 class="text-secondaryPurple m-4 fw-bold">Pop</h2>
+                        </div>
+                        <!-- Album Cards -->
+                        <div class="d-flex flex-nowrap overflow-auto w-100">
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">1989</p>
+                                    <p class="small mb-0">Taylor Swift</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">                
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Future Nostalgia</p>
+                                    <p class="small mb-0">Dua Lipa</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Happier Than Ever</p>
+                                    <p class="small mb-0">Billie Eilish</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Thriller</p>
+                                    <p class="small mb-0">Michael Jackson</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Like a Prayer</p>
+                                    <p class="small mb-0">Madonna</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Teenage Dream</p>
+                                    <p class="small mb-0">Katy Perry</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3rd Category -->   
+                    <div class="container-fluid d-flex flex-column flex-md-row align-items-center p-3 bg-primaryPurple rounded mx-auto text-center" style="min-width: 400px; max-width: 1100px;">
+                        <!-- Category Title -->
+                        <div class="me-md-4 mb-3 mb-md-0" style="width: 120px; flex-shrink:0;">
+                            <h2 class="text-secondaryPurple m-4 fw-bold">Rock</h2>
+                        </div>
+                        <!-- Album Cards -->
+                        <div class="d-flex flex-nowrap overflow-auto w-100">
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                                <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Nevermind</p>
+                                    <p class="small mb-0">Nirvana</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">The Queen Is Dead</p>
+                                    <p class="small mb-0">The Smiths</p>
+                                </div>
+                            </div> 
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                                <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">AM</p>
+                                    <p class="small mb-0">Arctic Monkeys</p>
+                                </div>
+                            </div>
+                            
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                                <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Back in Black</p>
+                                    <p class="small mb-0">AC/DC</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                            <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Led Zeppelin IV</p>
+                                    <p class="small mb-0">Led Zeppelin</p>
+                                </div>
+                            </div> 
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                                <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Hotel California</p>
+                                    <p class="small mb-0">Eagles</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- 4th Category -->
+                    <div class="container-fluid d-flex flex-column flex-md-row align-items-center p-3 bg-primaryPurple rounded mx-auto text-center" style="min-width: 400px; max-width: 1100px;">
+                        <!-- Category Title -->
+                        <div class="me-md-4 mb-3 mb-md-0" style="width: 120px; flex-shrink:0;">
+                            <h2 class="text-secondaryPurple m-4 fw-bold">R & B</h2>
+                        </div>
+                        <!-- Album Cards -->
+                        <div class="d-flex flex-nowrap overflow-auto w-100">
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                                <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Lemonade</p>
+                                    <p class="small mb-0">Beyoncé</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                                <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Channel Orange</p>
+                                    <p class="small mb-0">Frank Ocean</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                                <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">In Rainbows</p>
+                                    <p class="small mb-0">Radiohead</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                                <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Confessions</p>
+                                    <p class="small mb-0">Usher</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                                <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Ctrl</p>
+                                    <p class="small mb-0">SZA</p>
+                                </div>
+                            </div>
+
+                            <div class="card m-2 flex-shrink-0" style="width: 180px; min-width: 180px;">
+                                <img class="card-img-top" src="./images/record_cover.jpg" alt="vinyl record">
+                                <div class="card-body p-2">
+                                    <p class="mb-1 fw-bold">Get Lifted</p>
+                                    <p class="small mb-0">John Legend</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-lightGray py-3">
+            <div class="container d-flex justify-content-between align-items-center">
+
+                <!-- Left Logo -->
+                <div class="navbar-brand">
+                <img src="./images/logo.png" alt="Vinyl Vault logo" style="height: 40px;">
+                </div>
+
+                <!-- Navigation Links -->
+                <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-secondaryPurple" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-secondaryPurple" href="albums.html">Albums</a></li>
+                <li class="nav-item"><a class="nav-link text-secondaryPurple" href="songs.html">Songs</a></li>
+                <li class="nav-item"><a class="nav-link text-secondaryPurple" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="container text-left mt-2">
+                <small class="mb-0">© 2026 Blanca Villegas.All rights reserved.</small>
+            </div>
+        </footer>
+
+        <script type="module" src="./javascripts/main.js"></script>\ 
+    </body>
+</html>
